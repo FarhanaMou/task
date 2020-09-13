@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+    <title>Task Project</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h4>Task List</h4>
+        <form id="task_form">
+            <input type="text" id="new_input" placeholder="New Input">
+            <input type="submit" value="Add Task">
+        </form>
+        <hr>
+        <h4>Task </h4>
+        <input type="text" id="filter_task" placeholder="Filter Task">
+        <ul id="task">
+
+        </ul>
+        <button  id="clear_task_btn">Clear Task</button>
+        
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
